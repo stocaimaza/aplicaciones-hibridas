@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid red;
+
+    li {
+        display: inline-block;
+        margin: 10px;
+        
+        .link {
+            text-decoration: none; 
+        }
+    }
+}
